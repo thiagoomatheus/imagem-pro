@@ -1,0 +1,28 @@
+{
+  "name": "imagem-pro",
+  "version": "1.0.0",
+  "description": "Bot para profissionalização de imagens para pequenos empreendedores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoomatheus/imagem-pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagoomatheus/imagem-pro/issues"
+  },
+  "homepage": "https://github.com/thiagoomatheus/imagem-pro#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
