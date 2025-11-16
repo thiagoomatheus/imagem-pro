@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx src/server.ts"
+    "dev": "tsx ./server.ts"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     }
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
     "fastify": "^5.6.2",
     "minio": "^8.0.6",
     "redis": "^5.9.0"
